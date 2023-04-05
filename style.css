@@ -1,0 +1,574 @@
+/* Navigation of porpholio  */
+@import url('https://fonts.googleapis.com/css2?family=Permanent+Marker&display=swap');
+
+* {
+    margin: 0px;
+    padding: 0px;
+    font-size: 10px;
+}
+
+:root{
+    --primary-color : white;
+    --secondary-color :  black;
+    --tertiary-color : rgb(128, 123, 123);
+    --primary-text-color : white;
+    --secondary-text-color : black;
+}
+
+
+.main_header {
+    position: sticky;
+    top: 0px;
+    display: flex;
+    background-color: rgb(13, 13, 13);
+    height: 6rem;
+    color: var(--primary-text-color);
+}
+
+.main_header_logo {
+    display: flex;
+}
+
+.main_header_image img {
+    width: 3.5rem;
+    height: 3.5rem;
+    border-radius: 50%;
+    object-fit: cover;
+    margin: 1rem;
+}
+
+.main_header_logo_name {
+    margin: 1rem 0rem;
+    align-items: center;
+    width: 20rem;
+    height: 5.5rem;
+    font-size: 3rem;
+    font-family: 'Medula One', cursive;
+
+}
+
+.main_header_navigation_ul {
+    display: flex;
+    position: absolute;
+    right: 10rem;
+}
+
+.navbar {
+    list-style: none;
+    margin: 1.6rem;
+    font-size: 1.9rem;
+    font-family: 'Open Sans', sans-serif;
+}
+
+.navbar a {
+    color: white;
+    text-decoration: none;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 1.75rem;
+}
+
+.navbar a:hover {
+    color: white;
+    text-decoration: none;
+    font-size: 1.9rem;
+    background-color: aliceblue;
+    color: black;
+    border-radius: .5rem;
+    padding: .5rem;
+    font-weight: bold;
+}
+
+/* chaliye shuru karate hai apane home page ko  */
+
+.main_header_background {
+    background-color: rgb(16, 15, 15);
+    height: 600px;
+}
+
+.main_section_home {
+    display: flex;
+    justify-content: center;
+}
+
+.main_header_about {
+    margin-top: 10rem;
+    width: 30vw;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.main_header_us {
+    margin: 1.5rem 5.5rem;
+    display: flex;
+    justify-content: center;
+    width: 40vw;
+    align-items: center;
+}
+
+.main_header_about_image img {
+    width: 35vw;
+    height: 40rem;
+
+}
+
+.main_header_about_content {
+    font-size: 2.5rem;
+    
+}
+
+.main_header_about_content span {
+    font-size: 7.5rem;
+    font-family: 'Medula One', cursive;
+
+    
+}
+
+#web_devloper {
+    animation-name: deepak;
+    animation-duration: 2s;
+    background-color: white;
+    animation-iteration-count: infinite;
+}
+
+.web_devloper {
+    font-size: 3rem;
+}
+
+@keyframes deepak {
+    from {
+        width: 18rem;
+    }
+
+    to {
+        width: 28rem;
+
+    }
+}
+
+.button {
+    display: flex;
+    margin-top: 9rem;
+}
+
+.home_black_left {
+    width: 12rem;
+    height: 5rem;
+    margin: .5rem;
+    border-radius: .3rem;
+    background-color: white;
+    box-sizing: border-box;
+   
+}
+
+.home_black_left a {
+    text-decoration: none;
+    font-size: 2rem;
+    color: black;
+    padding: 2rem 2.8rem;
+    font-family: 'Sofia Sans Condensed', sans-serif;
+}
+
+.home_black_left:hover {
+    width: 13rem;
+    height: 5.5rem;
+    margin: .5rem;
+    border-radius: .3rem;
+    background-color: black;
+}
+
+.home_black_left a:hover {
+    text-decoration: none;
+    font-size: 2.25rem;
+    color: white;
+    font-weight: bold;
+}
+
+.home_white_left {
+    width: 12rem;
+    height: 5rem;
+    margin: .5rem;
+    border-radius: .5rem;
+    background-color: black;
+    box-sizing: border-box;
+}
+
+.home_white_left a {
+    font-size: 2rem;
+    color: white;
+    text-decoration: none;
+    padding: 2rem 4rem;
+    font-family: 'Sofia Sans Condensed', sans-serif;
+}
+
+.home_white_left a:hover {
+    font-size: 2.25rem;
+    color: black;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.home_white_left:hover {
+    width: 13rem;
+    height: 5.5rem;
+    margin: .5rem;
+    border-radius: .5rem;
+    background-color: white;
+}
+
+/* chaliye shuru karate hai falatu ki kuchh bate  */
+
+#mere_bare_me_kuchh{
+    background: url(bg-5.jpg) no-repeat center;
+    content: "";
+    z-index: -1;
+    opacity: 1;
+}
+
+#mere_bare_me_kuchh{
+    width: 100%;
+    height: 600px;
+    color: rgb(250, 249, 249);
+    background-color: black;
+    object-fit: cover;
+    background-repeat: no-repeat;
+    justify-content: center;
+    margin-top: 0px;
+    position: relative;
+    top: 0px;
+}
+
+.kuchh_new {
+    padding-top: 25px;
+    padding-left: 83px;
+    padding-right: 70px;
+    font-size: 30px;
+    display: flex;
+    text-align: center;
+    align-items: center;
+    font-family: 'Inter', sans-serif;
+}
+
+/* chalo start karate hai apane skill ke bare me  */
+
+.my_skills_1 {
+    font-size: 3.5rem;
+    font-family: 'Kanit', sans-serif;
+    display: flex;
+    justify-content: center;
+    margin-top: 0rem;
+    padding: 1.5rem;
+    color: white;
+}
+
+.my_skills_2 {
+    font-size: 2.5rem;
+    font-family: 'Kanit', sans-serif;
+    display: flex;
+    justify-content: center;
+    margin-top: 0rem;
+    padding: 1.2rem;
+    color: white;
+}
+
+.my_skills {
+    font-size: 3.5rem;
+    font-family: 'Kanit', sans-serif;
+    display: flex;
+    justify-content: center;
+    margin-top: 0rem;
+    padding: 1.5rem;
+    color: rgb(1, 1, 1);
+}
+
+.my_skills_in_about {
+    font-size: 3.5rem;
+    font-family: 'Kanit', sans-serif;
+    display: flex;
+    justify-content: center;
+    margin-top: 0rem;
+    padding: 1.5rem;
+}
+
+.our_skills {
+    width: 80vw;
+    height: 20rem;
+    display: flex;
+    margin: auto;
+    margin-top: 5rem;
+    justify-content: center;
+}
+
+.our_skills_more {
+    width: 80vw;
+    height: 16rem;
+    display: flex;
+    margin: auto;
+    margin-top: 0px;
+    justify-content: center;
+}
+
+.our_basic_skills {
+    width: 20rem;
+    height: 15rem;
+    margin: .5rem 1.2rem;
+    border-radius: 1rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(1, 0, 0);
+    box-shadow: .5rem .5rem 5px rgb(142, 142, 150);
+    box-shadow: -.25rem -.25rem 3px rgb(246, 246, 250);
+    border: 2px solid rgb(220, 220, 222);
+}
+
+/* chaliye start karate hai apane projects ke bare me  */
+#project_work {
+    background-color: rgb(228, 225, 225);
+    margin: 0px;
+
+}
+
+.my_project_1 {
+    width: 60vw;
+    margin: 2rem 5vw;
+}
+
+.my_project_1 img {
+    width: 60vw;
+    height: 30rem;
+}
+
+.project_on_left {
+    margin-top: 2rem;
+    font-size: 1.5rem;
+    font-family: 'Lora', serif;
+    text-align: justify;
+    padding: .8rem;
+}
+
+.button {
+    display: flex;
+    margin-top: 3.5rem;
+}
+
+.black_left {
+    width: 12rem;
+    height: 5rem;
+    margin: 2rem .8rem;
+    border-radius: .7rem;
+    background-color: white;
+    box-sizing: border-box;
+}
+
+.black_left a {
+    text-decoration: none;
+    font-size: 2rem;
+    color: black;
+    padding: 2rem 2.8rem;
+    font-family: 'Sofia Sans Condensed', sans-serif;
+}
+
+.white_left {
+    width: 12rem;
+    height: 5rem;
+    margin: 2rem 0px;
+    border-radius: .7rem;
+    background-color: black;
+    box-sizing: border-box;
+}
+
+.white_left a {
+    font-size: 2rem;
+    color: white;
+    text-decoration: none;
+    padding: 2rem 2.8rem;
+    font-family: 'Sofia Sans Condensed', sans-serif;
+}
+
+.white_left a:hover {
+    font-size: 2.25rem;
+    color: black;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.white_left:hover {
+    width: 13rem;
+    height: 5.5rem;
+    margin: 2rem .8rem;
+    border-radius: .7rem;
+    background-color: white;
+}
+
+.black_left:hover {
+    width: 13rem;
+    height: 5.5rem;
+    margin: 2rem .8rem;
+    border-radius: .7rem;
+    background-color: black;
+}
+
+.black_left a:hover {
+    text-decoration: none;
+    font-size: 2.25rem;
+    color: white;
+    font-weight: bold;
+
+}
+
+.my_project_2 {
+    width: 60vw;
+    margin-left: 34vw;
+}
+
+.my_project_2 img {
+    width: 60vw;
+    height: 30rem;
+}
+
+#contact_us{
+    background-color: rgb(241, 242, 243);
+    margin-top: -20px;
+}
+.section_of_contact_us {
+    width: 80vw;
+    margin: auto;
+    display: flex;
+    justify-content: center;
+}
+
+.contact_us_image {
+    width: 40vw;
+    height: 45rem;
+    display: flex;
+    justify-content: center;
+    margin-left: 3rem;
+    margin-top: 4.5rem;
+}
+
+.contact_us_image img {
+    width: 30.5vw;
+    height: 40rem;
+    border: 2px solid black;
+    border-radius: 5px;
+}
+
+.contact_application {
+    width: 27.5vw;
+    justify-content: center;
+    border: 2px solid black;
+    border-radius: 5px;
+    margin-top: 20px;
+}
+
+.name {
+    font-size: 1.5rem;
+    padding: 1rem 1rem;
+    font-family: 'Ubuntu', sans-serif;
+}
+
+input {
+    margin: 0px 10px;
+    width: 25vw;
+    height: 2.5rem;
+    text-align: center;
+    font-size: 1.5rem;
+    border-radius: .3rem;
+    box-shadow: .3rem .3rem rgb(48, 47, 47);
+}
+
+.drop_your_own {
+    height: 15rem;
+    margin-bottom: 2rem;
+}
+
+.submit_your_response {
+    width: 25vw;
+    height: 3.5rem;
+    text-align: center;
+    margin: .5rem 1rem;
+    font-size: 2rem;
+    color: white;
+    background-color: black;
+    border-radius: .5rem;
+}
+
+.burger {
+    display: none;
+    width: 75px;
+}
+
+.line {
+    width: 65%;
+    background-color: white;
+    color: black;
+    height: 6px;
+    margin: 8px 3px;
+}
+
+.social_media_bg{
+    background-color: rgb(35, 31, 31);
+    margin-top: 15px;
+}
+
+.follow_me {
+    font-size: 2rem;
+    display: flex;
+    justify-content: center;
+    margin: 1rem 0px;
+}
+
+.social_midea_profile {
+    display: flex;
+    justify-content: center;
+}
+
+.social_midea_user {
+    height: 3.4rem;
+    width: 3.4rem;
+    border-radius: 3px;
+    margin: 1rem;
+}
+
+#social_midea_profile_facebook {
+    background-image: url(facebook.png);
+    object-fit: cover;
+}
+
+#social_midea_profile_insta {
+    background-image: url(insta.png);
+    object-fit: cover;
+}
+
+#social_midea_profile_linkedin {
+    background-image: url(linkedin.png);
+    object-fit: cover;
+}
+
+#social_midea_profile_tweeter {
+    background-image: url(tweeter.png);
+    object-fit: cover;
+}
+
+
+.thank_you{
+    width: 100%;
+    height: 70px;
+    background-color: black;
+    color: white;
+}
+
+.drop_your_love{
+    font-size: 20px;
+    display: flex;
+    justify-content: center;
+    padding-top: 10px;
+    font-family: 'Francois One', sans-serif;
+}
+
+.horizontal{
+    padding-top: 10px;
+    width: 40%;
+    margin: auto;
+}
